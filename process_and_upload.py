@@ -128,8 +128,7 @@ def process_documents(pdf_directory: str, urls: List[str]) -> List[Dict]:
 def main():
     pdf_directory = 'data_pdf'
     urls = [
-        "https://www.vyce.io/",
-        # Add more URLs as needed
+        # Add URLs as needed
     ]
 
     print("Starting document processing...")
